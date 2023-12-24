@@ -1,0 +1,16 @@
+{
+  "name": "ethereum_labs",
+  "version": "1.0.0",
+  "description": "ethereum labs",
+  "main": "index.js",
+  "scripts": {
+    "compile": "solcjs --bin --include-path node_modules/ --base-path ."
+  },
+  "keywords": [],
+  "author": "Danila Moriakov",
+  "license": "ISC",
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.1",
+    "solc": "^0.8.23-fixed"
+  }
+}
